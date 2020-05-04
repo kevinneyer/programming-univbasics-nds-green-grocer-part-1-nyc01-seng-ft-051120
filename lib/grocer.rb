@@ -23,6 +23,6 @@ new_array = []
 
 cart.each do |x,y|
  binding.pry 
- x= {}
+ x[:item]
 end
 end 
