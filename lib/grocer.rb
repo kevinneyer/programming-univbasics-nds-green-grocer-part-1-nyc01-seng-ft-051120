@@ -7,7 +7,7 @@ while counter < collection.length
     return collection[counter] 
   end 
   counter += 1 
-end
+ end
 end 
 
 def consolidate_cart(cart)
