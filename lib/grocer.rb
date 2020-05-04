@@ -21,12 +21,4 @@ def consolidate_cart(cart)
   # change `cart` (i.e. mutate) it. It's easier to return a new thing.
 new_array = []
 
-cart.each do |x,y|
- x[:item].find do |total|
-   binding.pry
-   if total > 1 
-      total 
- end
- end 
-end
 end 
