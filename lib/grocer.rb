@@ -1,11 +1,12 @@
 require 'pry'
 
 def find_item_by_name_in_collection(name, collection)
-collection.find do |item_hash|
-  if name == item_hash[:item] 
-    return item_hash
-   end
+counter = 0 
+while counter < collection.length do 
+  if collection[counter] == name
+    return collection 
   end 
+end 
 end 
 
 def consolidate_cart(cart)
