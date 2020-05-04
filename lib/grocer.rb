@@ -6,9 +6,7 @@ collection.find do |item_hash|
     return item_hash
    end
   end 
-  if collection.include?(name) == nil 
-    return nil 
-  end 
+nil
 end 
 
 def consolidate_cart(cart)
