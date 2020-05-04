@@ -25,6 +25,9 @@ cart.each do |x,y|
  binding.pry 
  x[:item].count do |total|
    binding.pry
-   total = 
+   if total > 1 
+     
+ end
+ end 
 end
 end 
