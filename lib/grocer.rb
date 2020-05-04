@@ -6,6 +6,7 @@ while counter < collection.length do
   if collection[counter][:name] == name
     return collection 
   end 
+  counter += 1 
 end
 end 
 
