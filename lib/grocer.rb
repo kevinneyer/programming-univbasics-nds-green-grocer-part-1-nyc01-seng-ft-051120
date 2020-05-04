@@ -22,7 +22,6 @@ def consolidate_cart(cart)
 new_array = []
 
 cart.each do |x,y|
- binding.pry 
  x[:item].count do |total|
    binding.pry
    if total > 1 
